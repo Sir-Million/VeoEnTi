@@ -30,7 +30,7 @@ audio{
 .love .post-interior {
     padding-top: 15px;
     padding-bottom: 15px;
-    overflow-y: auto;
+    overflow-y: scroll;
 }
 
 .love .post-interior .post-title img {
