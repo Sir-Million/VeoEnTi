@@ -27,6 +27,12 @@ audio{
     height: 100vh;
 }
 
+.love .post-interior {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow-y: auto;
+}
+
 .love .post-interior .post-title img {
     border-radius: 15px;
 }
@@ -42,7 +48,7 @@ audio{
 }
 
 .song .post-interior{
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .song .post-interior .post-title{
