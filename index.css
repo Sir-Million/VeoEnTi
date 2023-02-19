@@ -1,0 +1,50 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: #f4c4f3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fc67fa, #f4c4f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fc67fa, #f4c4f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+audio{
+    width: 100%;
+}
+
+.post-box{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.love{
+    width: 100%;
+    height: 100vh;
+}
+
+.love .post-interior .post-title img {
+    border-radius: 15px;
+}
+
+.letter{
+    width: 100%;
+    height: 100vh;
+}
+
+.song{
+    width: 100%;
+    height: 100vh;
+}
+
+.song .post-interior{
+    overflow-y: scroll;
+}
+
+.song .post-interior .post-title{
+    font-size: .6rem;
+}
